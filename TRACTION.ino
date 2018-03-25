@@ -8,15 +8,15 @@ const int DIRL = 4;
 const int DIRR = 3;
 const int PWML = 5;
 const int PWMR = 2;
-const int Ra = 6;
 
-bool Rb = 7;
-bool Rc = 8;
-bool Rd = 9;
-bool Infa = 10;
-bool Infb = 11;
-bool Acou = 12;
-bool Magn = 13;
+bool Ra = false;
+bool Rb = false;
+bool Rc = false;
+bool Rd = false;
+bool Infa = false;
+bool Infb = false;
+bool Acou = false;
+bool Magn = false;
 
 int FB = 0;
 int RL =  0;
