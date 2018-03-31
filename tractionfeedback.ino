@@ -9,6 +9,8 @@ const int DIRR = 4;
 const int PWML = 2;
 const int PWMR = 5;
 
+
+//the real values are provided by other functions
 bool Ra = true;
 bool Rb = false;
 bool Rc = false;
@@ -142,9 +144,9 @@ void loop(){
     tmp = sens/2*2;
     sens = tmp;
   }
-  //if(sens != previous_sens){
+  if(sens != previous_sens){
     Serial.write(sens);
-  //}  
+  }  
   previous_sens = sens;
   turnWheels(FB, RL);
 }
